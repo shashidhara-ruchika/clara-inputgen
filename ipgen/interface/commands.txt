@@ -1,0 +1,7 @@
+source /home/ruchika/Ruchika/SOS/AutoLearner_InputGen/CLARA/clara/virtualenvironment/project/bin/activate
+
+export LD_LIBRARY_PATH=/usr/lib/lp_solve/
+
+./interface.sh tpr.py tpi.py 0 gr R
+
+./interface.sh tcr.c tci.c 0 largest_num M

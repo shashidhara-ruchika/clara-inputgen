@@ -1,0 +1,3 @@
+# pip install -r requirements.txt
+zss == 1.2.0
+ast2json == 0.2.1
